@@ -1,0 +1,10 @@
+api version: v1
+kind: pod 
+meta data: 
+ name: hello-pad
+spec:
+ containers:
+ - name: myfirst-container
+   image: nginx
+   ports:
+   - containerpost: 80
