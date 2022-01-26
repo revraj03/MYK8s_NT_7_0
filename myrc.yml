@@ -3,7 +3,7 @@ kind: ReplicationController
 metadata:
   name: myjenkins-rc
 spec:
- replicas: 2
+ replicas: 4
  selector:
     app: myjenkins
  template: 
