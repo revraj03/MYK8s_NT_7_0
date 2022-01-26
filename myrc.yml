@@ -8,12 +8,12 @@ spec:
     app: myjenkins
  template: 
     metadata:
-    labels:
-    app: myjenkins
- spec:
+     labels:
+      app: myjenkins
+    spec:
      containers:
-     - name: myjenkins-container
-       image: myjenkins:2.60.3
-       ports: 
-       - containerPort: 8080
+      - name: myjenkins-container
+        image: jenkins:2.60.3
+        ports: 
+        - containerPort: 8080
   
